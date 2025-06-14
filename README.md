@@ -33,7 +33,7 @@ Run certain endpoints to save variables.
 
 `GET /v1/books/:bookId` - get a book by ID
 
-`POST /v1/books/:bookId/rent` - rent a book
+`POST /v1/books/:bookId/rent` body { userId: string } - rent a book
 
 ### Users
 
