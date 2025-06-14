@@ -1,5 +1,7 @@
 # ts-book-api
 
+A book api in TypeScript using Express, SQLite and Prisma with Jest and Supertest for testing.
+
 ## Set up
 
 Clone the repo, install all dependencies and generate a prisma client
