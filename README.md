@@ -2,15 +2,18 @@
 
 ## Set up
 
-Clone the repo and install all dependencies by running <code>npm install</code>
+Clone the repo, install all dependencies and generate a prisma client
 
-Create a .env file and copy the context from .env.example
+1. Clone the repo
+2. Create a .env file and copy the context from .env.example
+3. Run `npm install`
+4. Run `npx prisma generate`
 
 ## Scripts
 
-<code>npm run dev</code> - starting the api for development
+`npm run dev` - starting the api for development
 
-<code>npm run test</code> - run tests
+`npm run test` - run tests
 
 ## Postman
 
@@ -26,20 +29,20 @@ Run certain endpoints to save variables.
 
 ### Books
 
-<code>GET /v1/books</code> - list all books
+`GET /v1/books` - list all books
 
-<code>GET /v1/books/:bookId</code> - get a book by ID
+`GET /v1/books/:bookId` - get a book by ID
 
-<code>POST /v1/books/:bookId/rent</code> - rent a book
+`POST /v1/books/:bookId/rent` - rent a book
 
 ### Users
 
-<code>GET /v1/users</code> - get a user for testing in Postman
+`GET /v1/users` - get a user for testing in Postman
 
-<code>GET /v1/users/:userId/books</code> - get rented books
+`GET /v1/users/:userId/books` - get rented books
 
-<code>GET /v1/users/:userId/history</code> - get user book history
+`GET /v1/users/:userId/history` - get user book history
 
 ### Rentals
 
-<code>POST /v1/rentals/:rentalId/return</code> - return a rented book
+`POST /v1/rentals/:rentalId/return` - return a rented book
